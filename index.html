@@ -10,9 +10,26 @@
 </head>
 
 <body>
-  <header class="header">header</header>
+  <header class="header">
+    <a href="#" class="header__logo">
+      <img src="./images/logo.svg" alt="изображение логотипа страницы" class="header__logo-image">
+    </a>
+    <nav class="header__menu">
+      <ul class="header__menu-list">
+        <li class="header__menu-link header__menu-link_active"><a href="#">Главная</a></li>
+        <li class="header__menu-link"><a href="#">О нас</a></li>
+        <li class="header__menu-link"><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
   <main class="main">
-    <section class="hero content-section_theme_bright"></section>
+    <section class="cover content-section_theme_bright">
+      <h1 class="cover__title">
+        <span class="accent-span">С</span>
+        <span class="accent-span text-center">чистого</span>
+        <span class="accent-span text-right">листа</span>
+      </h1>
+    </section>
     <section class="intro content-section_theme_bright"></section>
     <section class="reasons content-section_theme_dark"></section>
     <section class="how-to content-section_theme_bright"></section>
