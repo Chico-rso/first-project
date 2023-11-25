@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #131313;
+  background: #343434;
   font-family: Inter, sans-serif;
   font-weight: 400;
 }
@@ -21,6 +21,10 @@ blockquote {
 
 .content-section {
   box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  min-height: 100px;
+  margin: auto;
 }
 
 .content-section_theme_dark {
@@ -29,13 +33,12 @@ blockquote {
 }
 
 .content-section_theme_bright {
-  background-color: #343434;
+  background-color: #131313;
   color: #F5F5F5;
 }
 
 .header {
-  padding: 24px 20px;
-  margin-bottom: 30px;
+  padding: 24px 20px 30px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,8 +73,7 @@ blockquote {
 }
 
 .cover {
-  margin-bottom: 30px;
-  padding: 7px 24px 0 20px;
+  padding: 7px 24px 30px 20px;
   background-image: url('../images/cover.svg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -99,8 +101,7 @@ blockquote {
 }
 
 .intro {
-  padding: 20px 20px 0 20px;
-  margin-bottom: 37px;
+  padding: 20px 20px 37px 20px;
 }
 
 .intro__heading {
@@ -244,6 +245,7 @@ blockquote {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
   color: #F5F5F5;
   border-top: 1px solid #FEE42A;
